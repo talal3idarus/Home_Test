@@ -8,7 +8,7 @@ const characters = words
         const div = document.createElement("div");
         div.innerText = char;
         div.classList.add("character");
-        div.style.animationDelay=`${i*(TIME / 16) - offset}ms`;
+        div.style.animationDelay=`-${i*(TIME / 16) - offset}ms`;
         return div;
         }
         document.getElementById("spiral").append(createElement(0));
