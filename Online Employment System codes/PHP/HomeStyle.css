@@ -1,0 +1,76 @@
+
+body {
+    background-color: white;
+    /* to center the div in center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+/* =========================== */
+.container_1{
+    padding: 30px;
+    background-color: #AB9E98;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container_2{
+    padding: 30px;
+    width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* =========================== */
+.box1{
+    margin-bottom: 30px;
+    
+}
+.tit{
+    font-size: 50px;
+}
+
+.box2{
+    align-items: center;
+    margin-top:50px;
+}
+.setting{
+
+    text-align: right;
+    max-height: 70px;
+    
+}
+
+.logo{
+    height: 130px;
+}
+.mlogo{
+    height: 115px;
+}
+.logoout{
+    height: 70px;
+    
+}
+a:link,a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    padding: 10px;
+}
+
+.sets{
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+
+ 

@@ -1,0 +1,70 @@
+
+body {
+    background-color: white;
+    /* to center the div in center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+
+/* =========================== */
+.container_1{
+    padding: 30px;
+    background-color: #AB9E98;
+    border-radius: 30px;
+    /* border: 1px solid whitesmoke; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container_2{
+    padding: 30px;
+    width:900px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box1{
+    height: 300px;
+}
+
+.box2{
+    height: 100%;
+    background-color: gray;
+}
+
+.tit,.par{
+    text-align: center;
+}
+
+/* =========================== */
+
+
+.buttons{
+    text-align: right;
+}
+.buttons1{
+    width: 250px;
+    height: 50px;
+    font-size:30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #AB9E98;
+    border-color: whitesmoke; 
+}
+.down{
+    font-size:20px;
+    width:100%;
+    height: 20%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:  #AB9E98;
+}
+
+
+.logoout{
+    height: 50px;
+}
