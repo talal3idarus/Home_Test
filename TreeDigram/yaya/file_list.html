@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File List</title>
+</head>
+<body> 
+    <h2>File List</h2>
+                                                                                                                                                     
+    <ul>
+        {% for file in files %}
+            <li>
+                <a href="{% url 'download_file' file.id %}" download>{{ file.file.name }}</a> {{ file.coursName }} {{ file.year }}  {{ file.Seplisition }}  {{ file.shaptir }} 
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

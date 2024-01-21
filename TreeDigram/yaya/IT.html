@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File List</title>
+</head>
+<body> 
+    <h2>File List</h2>
+    {% debug %}
+    <ul>
+        {% for file in files %}
+            <li>
+                {% if file.id %}
+                    <a href="{% url 'download_file' file.id %}" download>{{ file.file.name }}</a>
+                    {{ file.coursName }} {{ file.year }} {{ file.Seplisition }} {{ file.shaptir }}
+                {% else %}
+                    No ID available for this file
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
