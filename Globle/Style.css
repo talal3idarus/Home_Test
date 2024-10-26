@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    transition: background-color 0.5s ease; /* Smooth background transition */
+}
+
+canvas {
+    width: 50vmin;
+    height: 50vmin;
+    transition: width 0.8s ease, height 0.8s ease; 
+}
+
+canvas:hover {
+    width: 90vmin;
+    height: 90vmin;
+}
+
+/* Class for black background */
+body.hovered {
+    background-color: rgb(42, 38, 38);
+}
